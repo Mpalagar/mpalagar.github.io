@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8"> <!-- Especificación de caracteres-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./style.css" rel="stylesheet" type="text/css"> <!-- Archivo css que se utiliza-->
+    <title>Book Wolrd</title> <!-- Lo que se ve en la pestaña de la web-->
+</head>
+<body>
+<!-- Sección superior donde aparece el menú principal-->
+    <header>
+        <h1 class="Título">Posibles alquileres</h1> <!-- Título Principal-->
+        <p id="alinearizq">................................Menú....................................</p>
+        <div class="Bloque1">
+            <div class="imagenIndex1">
+                <img src="https://insdrcdn.com/media/attachments/b/00/b39e8900b__1600x0.jpg"
+                    alt="Biblioteca clásica" title="Logo de Mundo de libros">
+            </div>
+            <ul class = "semititulo"> 
+                <li>En que mundo te adentrarás</li>
+                <div></div>
+                <li>Elige tu historia ↓</li>   
+            </ul>
+            <ul class="menu1"> <!-- Lista sin ordenar para el menú-->
+                <li><a id="colorear" href="./index.html">Alquiler de libros --></a></li>
+                <li><a id="colorear" href="./prestamos.html">Préstamos --></li>
+                <li><a id="colorear" href="./iniciosesion.html">Iniciar sesion --></a></li>
+        </div>
+
+    </header>
+
+    <div class="recomendacion">
+        
+        <div id="libros" style="display:none">
+            <h2><i>Recomendación de esta semana: </i></h2>
+            <ul id="solucion"></ul> <!-- Id para llamar y modificar-->
+        </div>
+        <div class="cancelar">
+            <button onclick="elegirlibro()">Recomiéndame que leer</button>
+        </div>
+    </div>
+        
+        <!-- Id para colocar el java-->
+    <div>
+        <h2 class="texto">Literatura fantástica</h2>
+        
+        <section class="bloque2">
+            <div id="producto1"> <!-- Id para luego llamarlo en el archivo java-->
+                <div class="ImagenTienda">
+                    <img src="https://th.bing.com/th/id/R.3e53126e83ae2e3a3c92b57cc6a4a687?rik=dEirdMbI031Dhw&pid=ImgRaw&r=0"
+                        alt=" Libro de percy jackson">
+                        <div class = "descripcion">
+                            
+                        </div>
+                    <p class="descripcion"><span class="nombre">Fantasia</span>: <span class="precio"> 15</span>$</p>
+                    <p class="descripcion"><span class="dias">19-</span> dias</p><!-- Datos que usaré están en blanco y con las clases luego puedo llamar-->
+                    <div class="boton1">
+                        <button onclick="clicks1()">Comprar</button><!-- Botón que llama a la función-->
+                    </div>
+                </div>
+            </div>
+            <!-- A partir de aquí repetir con otros cinco productos-->
+            <div id="producto2">
+                <div class="ImagenTienda">
+                    <img src="https://th.bing.com/th/id/R.2ce7b5317ae9d12cbc53f29e968f1073?rik=7rbnkROisZGFfA&pid=ImgRaw&r=0"
+                        alt=" libro infantil de fantasía">
+                    <p class="descripcion"><span class="nombre">Infantil</span>: <span class="precio"> 12</span>$</p>
+                    <p class="descripcion"><span class="dias">22-</span> dias</p>
+                    <div class="boton2">
+                        <button onclick="clicks2()">Comprar</button>
+                    </div>
+                </div>
+            </div>
+
+            <div id="producto3">
+                <div class="ImagenTienda">
+                    <img src="https://imagessl3.casadellibro.com/a/l/t7/13/9786586016413.jpg"
+                        alt="libro de the wicher">
+                    <p class="descripcion"><span class="nombre">Drama</span>: <span class="precio">20</span>$</p>
+                    <p class="descripcion"><span class="dias">20-</span> dias</p>
+                    <div class="boton3">
+                        <button onclick="clicks3()">Comprar</button>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <h2 class="texto">Literatura seria</h2>
+        <section class="bloque2">
+            <div id="producto4">
+                <div class="ImagenTienda">
+                    <img src="https://th.bing.com/th/id/OIP.pTIRF5vWIX9ATSljMl9XfQHaJ6?pid=ImgDet&rs=1"
+                        alt="Libro de filosofía">
+                    <p class="descripcion"><span class="nombre">Filosofía</span>: <span class="precio"> 10</span>$</p>
+                    <p class="descripcion"><span class="dias">10-</span> dias</p>
+                    <div class="boton4">
+                        <button onclick="clicks4()">Comprar</button>
+                    </div>
+                </div>
+            </div>
+
+            <div id="producto5">
+                <div class="ImagenTienda">
+                    <img src="https://th.bing.com/th/id/OIP.Ctg88BpsQ-d6w4FJswZUugHaLt?pid=ImgDet&rs=1"
+                        alt="libro de historia">
+                    <p class="descripcion"><span class="nombre">Historia</span>: <span class="precio">15</span>$</p>
+                    <p class="descripcion"><span class="dias">9-</span> dias</p>
+                    <div class="boton5">
+                        <button onclick="clicks5()">Comprar</button>
+                    </div>
+                </div>
+            </div>
+
+            <div id="producto6">
+                <div class="ImagenTienda">
+                    <img src="https://th.bing.com/th/id/R.d52579627ee120573cef31b5352cf6d4?rik=mBjK4OxQtAAUoA&pid=ImgRaw&r=0" alt="libro de fisica">
+                    <p class="descripcion"><span class="nombre">fisica</span>: <span class="precio">50</span>$</p>
+                    <p class="descripcion"><span class="dias">15-</span> dias</p>
+                    <div class="boton6">
+                        <button onclick="clicks6()">Comprar</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- TBoton que llama a la función sumar precios-->
+        <div class="suma">
+            <button onclick="sumaprecios()">Ver precio préstamo</button>
+        </div>
+        <!-- Botón que llama a la función vaciar precios-->
+        <div class="cancelar">
+            <button onclick="cancelarprestamo()">Cancelar orden</button>
+        </div>
+        <!-- Id para colocar el java-->
+        <div id="items" style="display:none">
+            <h2><i>Pedido: </i></h2>
+            <ul id="list"></ul> <!-- Id para llamar y modificar-->
+        </div>
+
+        <!-- Pie de página-->
+        <div class="PieDePagina">
+            <span>Disclaimer: Todos los derechos de autor reservados a sus respectivos autores</span>
+        </div>
+        <script src="index.js"></script>
+</body>
+
+</html>

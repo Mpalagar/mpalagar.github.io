@@ -1,0 +1,354 @@
+* {
+    background-color: rgba(95, 10, 10, 0.922);
+    
+    
+} /*Color de fondo general para todas las páginas*/
+
+.Título {
+    display: flex;
+    justify-content: center;
+    background-color: rgba(35, 3, 3, 0.721);
+    color: white;
+    font-size: 4em;
+    border: rgb(12, 12, 12) 10px solid;
+    border-radius: 0.3em;
+    
+} /*Color para el título principal*/
+
+.menu1 {
+    color:rgb(249, 249, 249);
+    display: flex;
+    flex-direction: column;
+    border: rgb(248, 234, 234) 5px solid;
+    border-radius: 0.3em;
+    opacity: 1;
+    margin-top: 20px;
+    
+} /*Como se muestra el menú*/
+.menu1 li {
+    float: left;
+    margin: 5px 5px 5px 5px;
+   
+
+}/*Separación palabras del menú*/
+
+.imagenIndex1 {
+    margin: 0px 0px 0px 0em;
+} /*De donde a donde va la imagen*/
+
+.imagenIndex1 img {
+    border: 1px solid rgb(95, 10, 10, 0.922);
+    width: 210px;
+    margin: 0px 0px 0px 100px;
+    justify-content: left;
+}
+
+.imagenIndex2 {
+    margin: 0px 0px 0px 0em;
+} /*De donde a donde va la imagen*/
+
+.imagenIndex2 img {
+    border: 1px solid rgb(95, 10, 10, 0.922);
+    width: 350px;
+    height: 350px;
+    margin: 0px 0px 0px 25px;
+}
+
+.Bloque1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    color: whitesmoke;
+    display: center;
+    
+}/*Como se alienan los elementos en este bloque*/
+
+
+.semititulo{
+    display: flex;
+    justify-content: center;
+    color: rgba(238, 234, 234, 0.922);
+    font-style: oblique;
+    font-size: 1.5em;
+    flex-direction: column;
+    list-style: none;
+    line-height: 50px;
+}
+.texto {
+    display: flex;
+    justify-content: center;
+    color: rgb(95, 10, 10, 0.922);
+    background-color: white;
+    font-style: oblique;
+    font-size: 4em;
+    border: 1px solid black;
+    margin: 40px 40px 40px 40px;
+    
+}/*Forma para el texto de introducción*/
+
+.descripcion {
+    display: flex;
+    justify-content: center;
+    color: rgba(255, 253, 253, 0.922);
+    font-style: oblique;
+    font-size: large;
+    
+}/*Forma para el texto de introducción*/
+
+.gif {
+    padding: 0px;
+    margin: 0px;
+    background-image: url("https://th.bing.com/th/id/R.ae2ce041a4c4a89d60ad8541dc222b8f?rik=FXtNsKnmJGaHjg&pid=ImgRaw&r=0");
+    width: 100%;
+    height: 50vh;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    margin: 0px 50px 50px 0px;
+    border: 1px solid #000;
+} /*Imagen que se usa para el primer DOM*/
+
+#color-overlay {
+    width: 100%;
+    height: 50vh;
+    opacity: 0.75;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    
+}/*Necesario para poder cambiar el color en el primer Dom*/
+
+#text-bg {
+    line-height: 50vh;
+    font-size: 80px;
+    margin: 0px;
+    font-family: Verdana;
+  }/*Necesario para que no quede mal el tecto en el medio de la imagen*/
+
+#colorear{
+    color:white;
+    text-decoration: none;
+    
+}
+#alinearizq{
+    text-align: right;
+    color:white;
+    font-size: 1.2em;
+}
+  /*Segundo gif*/
+  .gif2 {
+    padding: 0px;
+    margin: 0px;
+    background-image: url("https://i.pinimg.com/originals/00/26/83/0026838c09fba481523f17e8f0599e7e.jpg");
+    width: 100%;
+    height: 50vh;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    margin: 0px 50px 50px 0px;
+    border: 1px solid #000;
+} /*Imagen que se usa para el primer DOM*/
+
+#color-overlay2 {
+    width: 100%;
+    height: 50vh;
+    opacity: 0.55;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    
+}/*Necesario para poder cambiar el color en el primer Dom*/
+
+#text-bg2 {
+    line-height: 50vh;
+    font-size: 80px;
+    margin: 0px;
+    font-family: Verdana;
+  }/*Necesario para que no quede mal el tecto en el medio de la imagen*/
+
+/*Fin de los estilos de index.html*/
+
+.PieDePagina{
+    display: flex;
+    justify-content: center;
+    margin-top: 30%;
+    color: white;
+}/*Pie de página general para todos los apartados y como ponerlo*/
+
+/*Parte de la tienda*/
+
+.alquilar {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(95, 10, 10, 0.922);
+    border: 1px solid rgb(251, 248, 248);
+}
+
+#solucion{
+    color:white;
+    font-size: 1.4em;
+}
+.ImagenTienda {
+    background-color: rgb(95, 10, 10, 0.922);
+    width: 100%;
+    margin:20px 20px 20px 20px;
+}
+
+.ImagenTienda img {
+    width: 200px;
+    height: 200px;
+    border: 1px solid rgb(95, 10, 10, 0.922);
+    justify-content: center;
+}
+
+.bloque2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+}
+.descripcion {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(95, 10, 10, 0.922);
+    font-style: verdana;
+}
+
+.recomendacion{
+    display: flex;
+    justify-content: center;
+    color: rgba(238, 234, 234, 0.922);
+    font-style: oblique;
+    font-size: 1em;
+    flex-direction: column;
+    list-style: none;
+    line-height: 50px;
+}
+
+.boton1 {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(95, 10, 10, 0.922);
+}
+
+.boton2 {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(95, 10, 10, 0.922);
+}
+
+.boton3 {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(95, 10, 10, 0.922);
+    
+}
+
+.boton4 {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(95, 10, 10, 0.922);
+}
+
+.boton5 {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(95, 10, 10, 0.922);
+    color: white;
+}
+
+.boton6 {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(95, 10, 10, 0.922);
+}
+
+.suma {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(95, 10, 10, 0.922);
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.cancelar {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(95, 10, 10, 0.922);
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+/*Fin parte de tienda*/
+
+/*Inicio de sesión*/
+
+
+.MarcoInicio label {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 50px;
+    
+    
+}
+
+.MarcoInicio input {
+    display: flex;
+    justify-content: flex-start;
+    
+}
+
+#items{
+    display: flex;
+    justify-content: center;
+    
+}
+#logear{
+    display: flex;
+    align-items: flex-end;
+}
+#marco{
+    display: flex;
+    flex-direction: row;
+    
+}
+
+/*Parte de adaptación fija a teléfono movil (Iphone)*/
+@media (min-width:640px) {
+
+    .bloque2 {
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        justify-content: center;
+        margin: 5px 5px 5px 5px;
+    }
+
+    .ImagenTienda {
+        display: flex;
+        margin: 5px 5px 5px 5px;
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+    }
+
+    .menu1 li {
+        float: left;
+        margin: 0px 80px 15px 0px;
+    }
+
+    #marco {
+        display: flex;
+        justify-content:center;
+        flex-direction: row;
+    }
+
+    .MarcoInicio {
+        display: flex;
+        margin: 5px 5px 5px 5px;
+    }
+
+
+    form {
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+    }
+}

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8"> <!-- Especificación de caracteres-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./style.css" rel="stylesheet" type="text/css"> <!-- Archivo css que se utiliza-->
+    <title>Book Wolrd</title> <!-- Lo que se ve en la pestaña de la web-->
+</head>
+<body>
+<!-- Sección superior donde aparece el menú principal-->
+
+    <header>
+        
+        <h1 class="Título">Inicio de Sesión</h1> <!-- Título Principal-->
+        <p id="alinearizq">................................Menú....................................</p>
+        <div class="Bloque1">
+            
+            <div class="imagenIndex1">
+                <img src="https://insdrcdn.com/media/attachments/b/00/b39e8900b__1600x0.jpg"
+                    alt="Biblioteca clásica" title="Logo de Mundo de libros">
+            </div>
+            
+            <ul class = "semititulo"> 
+                <li>Únete a nuestra biblioteca</li>
+                <div></div>
+                <li>Te esperamos ↓</li>   
+            </ul>
+            
+            <ul class="menu1"> <!-- Lista sin ordenar para el menú-->
+                <li><a id="colorear" href="./index.html">Alquiler de libros --></a></li>
+                <li><a id="colorear" href="./prestamos.html">Préstamos --></li>
+                <li><a id="colorear" href="./iniciosesion.html">Iniciar sesion --></a></li>
+            </ul>
+        </div>
+   
+    </header>
+
+    <!-- Inicio estructura formulario-->
+    <section>
+        <div id="marco">
+            <div class="MarcoInicio">
+                <form action="/some-url" method="get">
+                    <label for="username">Usuario:</label>
+                    <input type="text" name="username" id="username" placeholder="TuNombre">
+                    <label for="password">Contraseña:</label>
+                    <input type="password" id="password" name="password" placeholder="**********">
+                </form>
+            </div>
+            <div id="logear">
+                <input type="submit" value="Logear">
+            </div>
+        </div>
+        
+    </section>
+    <!-- Fin estructura formulario-->
+    <div class="PieDePagina">
+        <span>Disclaimer: Todos los derechos de autor reservados a sus respectivos autores</span>
+    </div>
+    <script src="index.js"></script>
+
+</body>
